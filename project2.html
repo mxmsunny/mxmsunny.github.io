@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project | Xiangmin Mo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="favicon/site.webmanifest">
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<h1><a href="index.html">XIANGMIN MO</a></h1>
+						<div class="container" style="margin-top: 5px;">
+							<ul class="social">
+								<li><a class="icon brands fa-github" target="_blank" rel="noopener noreferrer" href="https://github.com/mxmsunny"><span class="label">GitHub</span></a></li>
+								<li><a class="icon brands fa-linkedin-in" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/xiangminmo/"><span class="label">LinkedIn</span></a></li>
+								<li><a class="fa fa-envelope" aria-hidden="true" href="mailto: xiangminmo6121@gmail.com" style="text-decoration: none;"></a></li>
+							</ul>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Projects</a>
+									<ul>
+										<li><a href="project1.html">Journaly</a></li>
+										<li><a href="project3.html">Open Source New York</a></li>
+									</ul>
+								</li>
+								<li class="current"><a href="project2.html">Eye Squared See</a></li>
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+
+						<!-- Content -->
+							<article class="box post">
+								<a href="#" class="image featured"><img src="images/project2.png" alt="" style="opacity: 75%;"/></a>
+								<header>
+									<h2>Eye Squared See</h2>
+									<p>September 2019 - December 2019</p>
+								</header>
+								<p>
+									<br />
+									<b>Technologies:</b> Arduino
+									<br />
+									<b>Repository:</b> <a target="_blank" rel="noopener noreferrer" href= "https://github.com/mxmsunny/eye_squared_see" style= "text-decoration: none;">https://github.com/mxmsunny/eye_squared_see</a>
+								</p>
+								<p>
+									<i>Eye Squared See</i> is an Arduino project that aims to test and improve hand-eye coordination by having players simultaneously focus their eyes and 
+									hands on a moving LED and colored buttons. In other words, it is a reaction game with two game modes that requires the player to use both their eyes and fingers to play.
+								</p>
+								<p>
+									<i>Eye Squared See</i> was a project submitted for Professor <a target="_blank" rel="noopener noreferrer" href="http://cs.hunter.cuny.edu/~eschweit/" style= "text-decoration: none;">Eric Schweitzer</a>'s
+									 Microprocessors and Embedded Systems class.
+								</p>
+								<section>
+									<header>
+										<h3>Details on the Project</h3>
+									</header>
+									<p>There are two game modes. Although the two game modes are similar, they each serve different purposes.</p>
+									<p>
+										After receiving power, the LCD will display the welcome screen, which asks the player to choose a game mode using the buttons on the LCD shield. 
+										In both of the game modes, the RGB LED will randomly shine three different colors: red, green, or yellow. The RBG LED will also be moving back and forth with 
+										the assistance of the stepper motor and timing belt. The player would have to press the same colored button as the current color of the RBG LED. The rate that 
+										the color changes on the RBG LED is dependent on the steps of the stepper motor. When the stepper motor changes direction, the LCD will update the time, lives, 
+										and scores and display them to the player.
+									</p>
+									<p>
+										In the first game mode, also known as Game Mode 1, the player is given 3 lives to reach a score of 60. If the player does not press a button, or pushes the wrong button, 
+										a life is taken away. However, there might be instances where a button is pressed but the input is not read. Thus, I decided to add a life whenever the player reaches a 
+										score that is a multiple of 10, up to 50. The speed that the LED changes color will get faster when the player reaches a score of 10 and 40.
+									</p>
+									<p>
+										In the second game mode, the player is given 60 seconds to get as many points as possible. The rate the color changes is set to the “highest” setting, which is equivalent 
+										to the last level of the first game mode (which is when the player reaches a score of 40).
+									</p>
+								</section>
+								<section>
+									<header>
+										<h3>What I've learned</h3>
+									</header>
+									<p>
+										From this project, I've learned how to build projects using microprocessors, learned how to safely solder, and learned how to determine how much power a project draws. I was inspired to learn more about microprocessors 
+										by my friend and fellow Chinese Flagship colleague, <a target="_blank" rel="noopener noreferrer" href= "https://www.belindaliang.com/" style= "text-decoration: none;">Belinda Liang</a>. After seeing
+										 her and her classmates' projects at their showcases, it piqued my interest, and I figured that it would be fun and educational to work with microprocessors and embedded systems.
+									</p>
+								</section>
+							</article>
+
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<!-- Copyright -->
+								<div id="copyright">
+									<ul class="links">
+										<li>Created by Xiangmin Mo</li>
+										<li>Pictures: Stiffany Wu</li>
+										<li>Template and Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
