@@ -1,5 +1,5 @@
 # mxmsunny.github.io
-Hi! This is my personal website that I will trying to constantly update.
+Hi! This is my personal website that I will be trying to constantly update.
 
 Pictures are taken by my friend, Stiffany Wu.
 The HTML template used can be found [here](https://html5up.net/dopetrope).
